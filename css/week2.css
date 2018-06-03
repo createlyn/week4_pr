@@ -1,0 +1,69 @@
+/*body {
+  font-family: 'Nunito', sans-serif;
+}*/
+
+/* Example 1 */
+/*
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 20px;
+}*/
+
+/*I am ok with this*/
+/*h1, h2, h3, h4, h5, h6, p, a  {
+  color: black;
+}*/
+
+/*However I am not ok with this*/
+/*h1, h2, h3, h4, h5, h6, p, a:link, a:visited, a:hover, a:active  {
+  color: black;
+}*/
+
+/* Example 2 */
+
+/*.header{
+  background-color: blue;
+}
+
+.header__nav{
+  float: left;
+  padding: 3%;
+}
+
+.header__nav__item{
+  display: inline-block;
+  color: blue;
+}*/
+
+
+/* Example 3 */
+/*.main {
+  background-color: blue;
+}
+
+.main__section {
+  padding: 20px;
+}
+
+.main__section__list {
+  text-align: center;
+}*/
