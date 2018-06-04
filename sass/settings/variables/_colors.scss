@@ -1,0 +1,70 @@
+// Colors Variables Settings Stylesheet
+// ========================================
+
+// Black
+$black-light:  #26343F;
+$black-base:   #171F26;
+$black-dark:   #10161C;
+
+// Blue
+$blue-base:    #5CB8D9;
+$blue-dark:    #2C6073;
+
+// Green
+$green-base:   #239D94;
+
+// Grey
+$grey-light:   #F3F3F3;
+$grey-base:    #B1B1B2;
+$grey-dark:    #8C8C94;
+$grey-darkest: #222A31;
+
+$grey-alt:     #ADBEC5;
+$grey-alt-2:   #CDD8DD;
+$grey-alt-3:   #383F46;
+
+
+// Orange
+$orange-base:  #E78215;
+
+// Pink
+$pink-base:    #FF5EB1;
+
+// Purple
+$purple-base:  #6179B6;
+$purple-bright:#9B59B6;
+$purple-dark:  #34445D;
+
+// Yellow
+$yellow-base:  #FFAA00;
+
+// Red
+$red-base:     #F63E54;
+
+// White
+$white-base:   #FFFFFF;
+
+
+// Main Palette List
+$colors: (
+  black-light:   $black-light,
+  black-base:    $black-base,
+  black-dark:    $black-dark,
+  blue-base:     $blue-base,
+  blue-dark:     $blue-dark,
+  green-base:    $green-base,
+  grey-light:    $grey-light,
+  grey-base:     $grey-base,
+  grey-dark:     $grey-dark,
+  grey-alt:      $grey-alt,
+  grey-alt-2:    $grey-alt-2,
+  grey-alt-3:    $grey-alt-3,
+  orange-base:   $orange-base,
+  pink-base:     $pink-base,
+  purple-base:   $purple-base,
+  purple-bright: $purple-bright,
+  purple-dark:   $purple-dark,
+  yellow-base:   $yellow-base,
+  red-base:      $red-base,
+  white-base:    $white-base
+);

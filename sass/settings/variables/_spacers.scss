@@ -1,0 +1,37 @@
+// Spacers Variables Settings Stylesheet
+// ========================================
+
+// Variables
+$reset-zero:     0;
+
+$spacer-giga:    150px;
+$spacer-mega:    100px;
+
+$spacer-alpha:   50px;
+$spacer-bravo:   40px;
+$spacer-charlie: 30px;
+$spacer-delta:   20px;
+$spacer-echo:    15px;
+$spacer-golf:    10px;
+$spacer-hotel:    5px;
+
+// Resets
+$resets: (
+  (bottom,  $reset-zero),
+  (left,    $reset-zero),
+  (right,   $reset-zero),
+  (top,     $reset-zero)
+);
+
+// Spacers
+$spacers: (
+  (giga,      150px),
+  (mega,      100px),
+  (alpha,     50px),
+  (bravo,     40px),
+  (charlie,   30px),
+  (delta,     20px),
+  (echo,      15px),
+  (golf,      10px),
+  (hotel,      5px),
+);

@@ -10,7 +10,7 @@ h2 {
 
 h3 {
   font-size: 45px;
-  color: $white;
+  color: $white-base;
 }
 
 h4 {
@@ -23,4 +23,9 @@ h5 {
 
 h6 {
   font-size: 20px;
+}
+
+p {
+  font-size: $font-size-base;
+  font-family: $primary-font;
 }

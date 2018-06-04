@@ -1,0 +1,30 @@
+// Card Component Stylesheet
+// ========================================
+
+// Variables
+$card-margin-md:      0 0 $spacer-echo;
+$card-padding-md:     $spacer-echo;
+
+$card-margin-sm:      0 0 $spacer-hotel;
+$card-padding-sm:     $spacer-hotel;
+
+
+// Structure
+.card {
+  @include card($shadow: false);
+}
+
+.card--shadow {
+  @include card($shadow: true);
+}
+
+// Card Sizes
+.card--md {
+  margin: $card-margin-md;
+  padding: $card-padding-md;
+}
+
+.card--sm {
+  margin: $card-margin-sm;
+  padding: $card-padding-sm;
+}
