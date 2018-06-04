@@ -10,7 +10,8 @@ h2 {
 
 h3 {
   font-size: 45px;
-  color: $white-base;
+  color: $blue-base;
+  font-family: $primary-font;
 }
 
 h4 {
@@ -28,4 +29,30 @@ h6 {
 p {
   font-size: $font-size-base;
   font-family: $primary-font;
+  font-weight: 300;
+}
+
+a {
+  font-weight: 600;
+  color: $purple-base;
+  text-decoration: none;
+}
+
+// Text Alignment
+@each $text-alignment in $text-alignments {
+  $name:   nth($text-alignment, 1);
+  $align:  nth($text-alignment, 2);
+
+  .text--#{$name} {
+    text-align: $align;
+  }
+}
+
+// Text Colors
+@each $name, $tones in $type-colors {
+  $tone-color: nth($tones, 1);
+
+  .text--#{$name} {
+    color: $tone-color;
+  };
 }

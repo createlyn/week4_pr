@@ -41,15 +41,6 @@ $type-colors: (
   'blue':      ( $blue-base  ),
   'grey':      ( $grey-base  ),
   'grey-dark': ( $grey-dark  ),
+  'purple':    ( $purple-base),
   'white':     ( $white-base )
-);
-
-// Text Transforms
-$text-transform-capitalize:   capitalize;
-$text-transform-uppercase:    uppercase;
-
-// Text Transforms List
-$text-transforms: (
-  capitalize   $text-transform-capitalize,
-  uppercase    $text-transform-uppercase
 );
